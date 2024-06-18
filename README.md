@@ -21,3 +21,27 @@
 1. Set up sign-in methods
 2. Implement the sign-in UI flow
 3. Provide the user's credentials to the Authentication SDK
+
+### Firebase Authentication Console Guide
+
+<img width="1300" alt="auth3" src="https://github.com/Ghostlun/Firebase_Guide/assets/40644178/c105ad7f-0629-4132-9e2a-218fa6b73dec">
+
+#### User Management
+
+
+- **Identifier**: This column shows the user's email or phone number used for authentication.
+- **UID**: The Unique Identifier (UID) is a unique code assigned to each user. This is used internally to identify users across various Firebase services.
+- **Provider**: This shows the authentication provider used by the user, such as Email/Password, Google, Facebook, Twitter, etc.
+- **Created At**: This column indicates the date and time when the user account was created.
+- **Signed In At**: This column shows the most recent date and time when the user signed into the app.
+
+### Actions
+
+- **Edit User**: You can edit user details, including email, password, and profile information.
+- **Delete User**: This option allows you to permanently remove a user from your Firebase project.
+- **Send Email Verification**: For email/password sign-in methods, you can send a verification email to the user.
+- **Reset Password**: You can send a password reset email to the user.
+- **Add User**: Allows you to manually add a new user to your project, specifying their email, password, and other optional profile information.
+
+These features make it easier to manage your application's users and ensure secure authentication and authorization processes.
+
